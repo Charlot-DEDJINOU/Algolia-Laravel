@@ -6,6 +6,7 @@
         </div>
     @endif
     <div class="container">
+        @include('create')
         <div class="d-flex justify-content-evenly align-items-center w-100 mt-5">
             <h2>La liste de nos produits</h2>
             <form action="{{ url('/') }}" method="GET" class="w-50 d-flex align-items-center justify-content-between">
